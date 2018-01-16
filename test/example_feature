@@ -1,0 +1,7 @@
+feature testing of features
+
+scenario: load feature
+Given I am looged in to Jira
+And an issue of type story is selected
+When I start typing in the feature file name field
+Then I want to get proposals of feature files available in my git
